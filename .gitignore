@@ -1,0 +1,7 @@
+# Git ignore for game UniverseTest
+
+# Enviroments
+.venv
+
+# Folders
+.vscode
