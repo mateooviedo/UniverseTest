@@ -1,0 +1,50 @@
+<IntroScreen>:
+  name: 'intro_screen'
+  BoxLayout:
+    orientation: 'vertical'
+    canvas:
+      Color:
+        rgb: [1, 0, 0]
+      Rectangle:
+        size: self.size
+        pos: self.pos
+    Button:
+      text: 'Jugar'
+      on_press: root.play()
+    Button:
+      text: 'Salir'
+      on_press: root.exit()
+
+<MenuScreen>:
+  name: 'menu_screen'
+  BoxLayout:
+    orientation: 'vertical'
+    canvas:
+      Color:
+        rgb: [0, 1, 0]
+      Rectangle:
+        size: self.size
+        pos: self.pos
+    Button:
+      text: 'Salir'
+      on_press: root.exit()
+    Button:
+      text: 'Facil'
+      on_press: root.play_easy()
+    Button:
+      text: 'Medio'
+      on_press: root.play_medium()
+    Button:
+      text: 'Experto'
+      on_press: root.play_expert()
+
+<FinishGameScreen>:
+  name: 'finish_game_screen'
+
+<MainWid>:
+  canvas:
+    Color:
+      rgb: [0, 0, 1]
+    Rectangle:
+      size: self.size
+      pos: self.pos

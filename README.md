@@ -5,24 +5,13 @@ Video juego para el planetario el cual el objetivo sera responder a unas pregunt
 para poder aprender mas del gran universo y de sus diferentes caracteristicas
 
 ### Task
-- [ ] Create Scene Menu Principal
-  - [ ] Create button de niveles
-- [ ] Create Scene Preguntas
-  - [ ] Score thought in game
-  - [ ] Preguntas by Dificult
-  - [ ] Preguntas Random
-  - [ ] Answers Random
-    - [ ] Some Answers are multi select
+
+
+### Process
 - [ ] Create score system
 - [ ] Create scene finally
   - [ ] Show finally score
   - [ ] Show cup 
-
-
-### Process
-- [ ] Create Scene Intro
- - [ ] Create button play
-
 
 ### Test
 
@@ -35,3 +24,14 @@ para poder aprender mas del gran universo y de sus diferentes caracteristicas
   - [x] kivy
 - [x] Download image to backgrounds
 - [x] Create folders model
+- [x] Create Scene Intro
+ - [x] Create button play
+  - [x] Go to Menu Screen
+ - [x] Create button exit
+  - [x] Exit of Application
+- [x] Create database json to questions example
+- [x] Create Scene Menu Principal
+  - [x] Create button de niveles
+- [x] Create Scene Preguntas
+    - [x] Some Answers are multi select
+    - [x] Select only one onswer

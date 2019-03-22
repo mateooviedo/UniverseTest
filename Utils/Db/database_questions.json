@@ -1,0 +1,24 @@
+{
+  "Quest_Easy": [
+    {
+      "question": "¿Cual de estas son constelaciones?",
+      "answers_correct": [
+        "Orion", "Tauro", "Virgo"
+      ],
+      "answers_incorrects": [
+        "Toro"
+      ]
+    },
+    {
+      "question": "¿Qué es una constelación?",
+      "answers_correct": [
+        "Conjunto de estrellas que forman una figura"
+      ],
+      "answers_incorrects": [
+        "Estrella que viaja muy rapido",
+        "Conjunto de aves que forman una figura",
+        "Nubes de una region celeste"
+      ]
+    }
+  ] 
+}
